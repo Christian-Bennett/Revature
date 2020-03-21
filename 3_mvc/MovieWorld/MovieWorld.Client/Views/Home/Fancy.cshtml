@@ -1,0 +1,63 @@
+@* @{
+  Layout = null;
+} *@
+
+
+
+
+<header class="row">
+  <h1>PizzaBox</h1>
+
+  <nav>
+    <ul class="row">
+      <li><a href="">@ViewBag.Brand</a></li>
+      <li><a href="">@ViewData["Brand"]</a></li>
+      <li><a href="">@TempData["Brand"]</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="row">
+    <ul class="row">
+      <li>
+        <figure>
+          <img src="http://placecorgi.com/300/200" alt="an adorable corgi dog">
+          <figcaption>Pizza of the Month</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="http://placecorgi.com/300/200" alt="an adorable corgi dog">
+          <figcaption>Pizza of the Week</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="http://placecorgi.com/300/200" alt="an adorable corgi dog">
+          <figcaption>Pizza of the Day</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </section>
+  
+  <section class="row">
+    <article>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos odio eius velit praesentium voluptate, sunt fugiat perspiciatis hic, amet reiciendis in neque, rem dolorem harum eos autem pariatur? Soluta, dolores?</p>
+    </article>
+
+    <article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque excepturi odio quod eum sunt culpa, placeat ipsam repellendus vitae nobis non error dicta exercitationem voluptas id qui. Id, quae suscipit.</p>
+    </article>
+  </section>
+</main>
+
+<footer class="row">
+  <small>&copy; 2020, fred belotte</small>
+
+  <nav>
+    <a href="">twitter</a>
+    <a href="">github</a>
+    <a href="">instagram</a>
+  </nav>
+</footer>

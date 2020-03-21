@@ -1,0 +1,56 @@
+/*
+specificity-
+(d,c,b,a)
+a -> n * 10^0 (1), (0,0,0,1) = tag
+b -> n * 10^1 (10), (0,0,1,0) = class
+c -> n * 10^2 (100), (0,1,0,0) = id
+d -> n * 10^3 (1000), (1,0,0,0) = !important
+*/
+
+/* base selectors */
+
+* {
+  box-sizing: border-box; /* css box model */
+}
+
+tag {
+  text-decoration: none;
+}
+
+*.class {
+  display: flex;
+}
+
+tag.class {
+  color: red;
+}
+
+#id {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* additional selectors */
+
+sibling + sibling {
+
+}
+
+sibling ~ sibling {
+
+}
+
+ancestor descendant {
+
+}
+
+ancestor > direct-descendant {
+
+}
+
+selector:pseudo-class { /* active, hover, link, visited, blur, focus */
+
+}
+
+selector:pseudo-class { /*first-child, last-child, nth-child(n * a + b) */
+
+}

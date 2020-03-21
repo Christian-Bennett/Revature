@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAMedia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AMedia xsi:type="Song">
+    <Title>Song 1</Title>
+  </AMedia>
+  <AMedia xsi:type="Song">
+    <Title>Song 2</Title>
+  </AMedia>
+  <AMedia xsi:type="Book">
+    <Title>Book 1</Title>
+  </AMedia>
+  <AMedia xsi:type="Book">
+    <Title>Book 2</Title>
+  </AMedia>
+</ArrayOfAMedia>

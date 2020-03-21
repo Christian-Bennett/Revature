@@ -1,0 +1,172 @@
+{
+  "MediaWorld.Storage.dll": {
+    "/home/fred/revature/1_csharp/MediaWorld/MediaWorld.Storage/AudioCollection.cs": {
+      "MediaWorld.Storage.AudioCollection": {
+        "System.Collections.Generic.IEnumerable`1<MediaWorld.Domain.Abstracts.AMedia> MediaWorld.Storage.AudioCollection::Playlist()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Storage.AudioCollection::.ctor()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/fred/revature/1_csharp/MediaWorld/MediaWorld.Storage/Repositories/AudioRepository.cs": {
+      "MediaWorld.Storage.Repositories.AudioRepository": {
+        "System.Collections.Generic.IEnumerable`1<MediaWorld.Domain.Abstracts.AMedia> MediaWorld.Storage.Repositories.AudioRepository::List()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Storage.Repositories.AudioRepository::.ctor()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Storage.Repositories.AudioRepository::.cctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/fred/revature/1_csharp/MediaWorld/MediaWorld.Storage/Adapters/FileAdapter.cs": {
+      "MediaWorld.Storage.Adapters.FileAdapter": {
+        "System.Collections.Generic.IEnumerable`1<MediaWorld.Domain.Abstracts.AMedia> MediaWorld.Storage.Adapters.FileAdapter::Read(System.String)": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "24": 2,
+            "25": 2,
+            "27": 2,
+            "28": 2
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 3,
+              "EndOffset": 5,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 3,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Boolean MediaWorld.Storage.Adapters.FileAdapter::Write(System.Collections.Generic.List`1<MediaWorld.Domain.Abstracts.AMedia>)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Storage.Adapters.FileAdapter::.cctor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "MediaWorld.Domain.dll": {
+    "/home/fred/revature/1_csharp/MediaWorld/MediaWorld.Domain/Singletons/AudioPlayer.cs": {
+      "MediaWorld.Domain.Singletons.AudioPlayer": {
+        "MediaWorld.Domain.Singletons.AudioPlayer MediaWorld.Domain.Singletons.AudioPlayer::get_Instance()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.AudioPlayer::.ctor()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Singletons.AudioPlayer::.cctor()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/fred/revature/1_csharp/MediaWorld/MediaWorld.Domain/Abstracts/AMedia.cs": {
+      "MediaWorld.Domain.Abstracts.AMedia": {
+        "System.String MediaWorld.Domain.Abstracts.AMedia::get_Title()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Abstracts.AMedia::.ctor()": {
+          "Lines": {
+            "13": 8,
+            "14": 8,
+            "15": 8,
+            "16": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/fred/revature/1_csharp/MediaWorld/MediaWorld.Domain/Abstracts/APlayer.cs": {
+      "MediaWorld.Domain.Abstracts.APlayer": {
+        "System.Void MediaWorld.Domain.Abstracts.APlayer::Play(MediaWorld.Domain.Abstracts.AMedia)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void MediaWorld.Domain.Abstracts.APlayer::Stop(MediaWorld.Domain.Abstracts.AMedia)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
